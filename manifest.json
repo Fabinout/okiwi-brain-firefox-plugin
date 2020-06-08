@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Okiwi Brain",
+  "version": "0.1",
+  "author": "Fabien Lamarque",
+  "description": "Mutualiser et persister les liens intéressants de tout le monde",
+  "icons": {
+    "48": "brain.jpg"
+  },
+  "sidebar_action": {
+    "default_icon": "icons/star.png",
+    "default_title" : "Save to Brain",
+    "default_panel": "sidebar/panel.html"
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    }
+  }
+}
